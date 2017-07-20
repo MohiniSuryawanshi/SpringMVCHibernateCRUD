@@ -10,7 +10,7 @@
 </head>
 <body bgcolor="#B0C4DE">
     <div align="center">
-        <h1>Fill Employee Details of Incedo</h1>
+        <h1>Fill Employee Information</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
         <table>
             <form:hidden path="id"/>

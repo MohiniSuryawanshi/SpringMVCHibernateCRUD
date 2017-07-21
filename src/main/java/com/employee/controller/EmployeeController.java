@@ -71,12 +71,12 @@ public class EmployeeController {
 		return new ModelAndView("redirect:/");
 	}
 
-	@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
+	/*@RequestMapping(value = "/deleteEmployee", method = RequestMethod.GET)
 	public ModelAndView deleteEmployee(HttpServletRequest request) {
 		int employeeId = Integer.parseInt(request.getParameter("id"));
 		employeeService.deleteEmployee(employeeId);
 		return new ModelAndView("redirect:/");
-	}
+	}*/
 
 	@RequestMapping(value = "/editEmployee", method = RequestMethod.GET)
 	public ModelAndView editContact(HttpServletRequest request) {

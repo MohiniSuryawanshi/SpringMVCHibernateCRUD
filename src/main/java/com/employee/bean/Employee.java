@@ -71,4 +71,11 @@ public class Employee implements Serializable {
 		this.telephone = telephone;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", email=" + email
+				+ ", address=" + address + ", telephone=" + telephone + "]";
+	}
+
+	
 }
